@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Todo Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ todo.todo }}</span>
+            <p>Description: {{ todo.description }}</p>
+            <p>Date: {{ todo.date }}</p>
+        </div>
+  </div>
+  <div class="card-action">
+    <a href="{% url 'todos_update' todo.id %}">Edit</a>
+    <a href="{% url 'todos_delete' todo.id %}">Delete</a>
+  </div>
+</div>
+
+{% endblock %}
