@@ -9,4 +9,6 @@ urlpatterns = [
     path('todos/create/', views.TodoCreate.as_view(), name='todos_create'),
     path('todos/<int:pk>/update/', views.TodoUpdate.as_view(), name='todos_update'),
     path('todos/<int:pk>/delete/', views.TodoDelete.as_view(), name='todos_delete'),
+    path('accounts/signup/', views.signup, name='signup'),
+
 ]
