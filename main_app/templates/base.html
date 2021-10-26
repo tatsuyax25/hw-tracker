@@ -15,12 +15,13 @@
 
 <body>
   <header class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
+    <nav class="nav-extended">
+      <div class="nav-wrapper indigo">
         <ul>
-        <li><a href="/" class="left brand-logo">&nbsp;&nbsp;Tracker</a></li>
+        <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </ul>
-        <ul class='right'>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="{% url 'about' %}">About</a></li>
         {% if user.is_authenticated %}
           <li><a href="{% url 'todos_create' %}">Create a Todo</a></li>
@@ -32,13 +33,24 @@
         {% endif %}
         </ul>
       </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="{% url 'about' %}">About</a></li>
+        {% if user.is_authenticated %}
+          <li><a href="{% url 'todos_create' %}">Create a Todo</a></li>
+          <li><a href="{% url 'index' %}">View All My Todos</a></li>
+          <li><a href="{% url 'logout' %}">Log Out</a></li>
+        {% else %}
+          <li><a href="{% url 'signup' %}">Sign Up</a></li>
+          <li><a href="{% url 'login' %}">Log In</a></li>
+        {% endif %}
+      </ul>
     </nav>
   </header>
   <main class="container">
     {% block content %}
     {% endblock %}
   </main>
-  <footer class="page-footer">
+  <footer class="right page-footer indigo">
     <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
   </footer>
 </body>
