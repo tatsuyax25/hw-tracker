@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
-from .models import Todo
+from .models import Todo, Note
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+
 
 
 # Define the home view
@@ -47,6 +48,37 @@ class TodoUpdate(LoginRequiredMixin, UpdateView):
 class TodoDelete(LoginRequiredMixin, DeleteView):
     model = Todo
     success_url = '/todos/'
+
+@login_required
+def notes_index(request):
+    notes = Note.objects.filter(user=request.user)
+    return render(request, 'notes/index.html', { 'notes': notes })
+@login_required
+def notes_detail(request, note_id):
+    note = Note.objects.get(id=note_id)
+    return render(request, 'notes/detail.html', { 'note': note })
+
+class NoteCreate(LoginRequiredMixin, CreateView):
+  model = Note
+  fields = ['note', 'content']
+
+  def form_valid(self, form):
+        # Assign the logged in user (self.request.user)
+    form.instance.user = self.request.user  # form.instance is the cat
+    # Let the CreateView do its job as usual
+    return super().form_valid(form)
+
+
+class NoteUpdate(LoginRequiredMixin, UpdateView):
+    model = Note
+  # Let's disallow the renaming of a cat by excluding the name field!
+    fields = ['content']
+
+class NoteDelete(LoginRequiredMixin, DeleteView):
+  model = Note
+  success_url = '/notes/'
+
+
 
 def signup(request):
   error_message = ''

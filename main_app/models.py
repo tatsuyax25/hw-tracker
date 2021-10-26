@@ -17,9 +17,18 @@ class Todo(models.Model):
     def get_absolute_url(self):
         return reverse('todos_detail', kwargs={'todo_id': self.id})
 
-def __str__(self):
-    # Nice method for obtaining the friendly value of a Field.choice
-    return f"{self.get_meal_display()} on {self.date}"
+
+class Note(models.Model):
+    note = models.CharField(max_length=100)
+    content = models.TextField(max_length=500)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+            return self.note
+
+    def get_absolute_url(self):
+        return reverse('notes_detail', kwargs={'note_id': self.id})
+
 
 class Meta:
     ordering = ['-date']
