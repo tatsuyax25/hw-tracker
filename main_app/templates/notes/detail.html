@@ -13,5 +13,18 @@
     <a href="{% url 'notes_delete' note.id %}">Delete</a>
   </div>
 </div>
-
-{% endblock %}
+<script>
+    // create a datepicker
+    var dateEl = document.getElementById('id_date');
+    M.Datepicker.init(dateEl, {
+      format: 'yyyy-mm-dd',
+      defaultDate: new Date(),
+      setDefaultDate: true,
+      autoClose: true
+    });
+  
+    // initialize the meal select
+    var selectEl = document.getElementById('id_meal');
+    M.FormSelect.init(selectEl);
+  </script>
+ {% endblock %}

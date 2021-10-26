@@ -18,4 +18,21 @@
       <i class="material-icons right">send</i>
     </button>
   </form>
+
+  <script>
+    const dateEl = document.getElementById('id_date');
+    M.Datepicker.init(dateEl, {
+      format: 'yyyy-mm-dd',
+      defaultDate: new Date(),
+      setDefaultDate: true,
+      autoClose: true
+    });
+
+    const timeEl = document.getElementById('id_time');
+    M.Timepicker.init(timeEl, {
+      defaultTime: 'now',
+      twelveHour: true,
+      autoClose: true
+    });
+  </script>
 {% endblock %}

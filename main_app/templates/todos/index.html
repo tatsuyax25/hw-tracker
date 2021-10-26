@@ -8,7 +8,8 @@
     <a href="{% url 'todos_detail' todo.id %}">
         <div class="card-content">
             <span class="card-title">{{ todo.todo }}</span>   
-            <p>Date: {{ todo.date }}</p>
+            <p>Due Date: {{ todo.date }}</p>
+            <p>Time: {{ todo.time }}</p>
         </div>
     </a>
 </div>
