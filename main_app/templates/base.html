@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Tracker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
@@ -22,9 +22,14 @@
     <nav class="nav-extended">
       <div class="nav-wrapper indigo">
         <ul>
+
+        <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
+        <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
+
           
           <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="{% url 'home' %}">Home</a></li>
@@ -59,6 +64,11 @@
   <footer class="right page-footer indigo">
     <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    const slide_menu = document.querySelectorAll(".sidenav");
+    M.Sidenav.init(slide_menu,{});
+  </script>
 </body>
 
 </html>
