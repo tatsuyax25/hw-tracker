@@ -1,0 +1,17 @@
+{% extends 'note_base.html' %}
+{% block content %}
+
+<h1>Note Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ note.note }}</span>
+    <p>Content: {{ note.content }}</p>
+  </div>
+  <div class="card-action">
+    <a href="{% url 'notes_update' note.id %}">Edit</a>
+    <a href="{% url 'notes_delete' note.id %}">Delete</a>
+  </div>
+</div>
+
+{% endblock %}
