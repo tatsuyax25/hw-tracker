@@ -8,6 +8,8 @@
     <span class="card-title">{{ todo.todo }}</span>
             <p>Description: {{ todo.description }}</p>
             <p>Date: {{ todo.date }}</p>
+            <p>Time: {{ todo.time}}</p>
+            
         </div>
   </div>
   <div class="card-action">
@@ -15,4 +17,7 @@
     <a href="{% url 'todos_delete' todo.id %}">Delete</a>
   </div>
 </div>
+
+
+{% endblock %}
 
