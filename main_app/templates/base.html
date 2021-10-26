@@ -14,7 +14,6 @@
 
   <link rel="icon"href="{% static 'favicon/icon.ico' %}">
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
 <body>
@@ -25,10 +24,6 @@
 
         <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
         <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
-
-          
-          <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
         </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -45,6 +40,7 @@
         </ul>
       </div>
       <ul class="sidenav" id="mobile-demo">
+        <li><a href="{% url 'home' %}">Home</a></li>
         <li><a href="{% url 'about' %}">About</a></li>
         {% if user.is_authenticated %}
         <li><a href="{% url 'todos_create' %}">Create a Todo</a></li>
