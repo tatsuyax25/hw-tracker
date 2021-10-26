@@ -6,7 +6,7 @@ from django.contrib.auth.models import User
 class Todo(models.Model):
     todo = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
-    date = models.DateField('Due Date')
+    date = models.CharField(max_length=100)
     time = models.CharField(max_length=12)
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
