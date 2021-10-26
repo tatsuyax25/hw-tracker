@@ -31,7 +31,7 @@ def todos_detail(request, todo_id):
 
 class TodoCreate(LoginRequiredMixin, CreateView):
     model = Todo
-    fields = '__all__'
+    fields = ['todo', 'description', 'date']
 
     def form_valid(self, form):
         form.instance.user = self.request.user
