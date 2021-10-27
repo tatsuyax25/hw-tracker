@@ -6,23 +6,22 @@
 {% else %}
 <h1>Add Todo</h1>
 {% endif %}
-  <!-- Leaving the action empty makes the form post to the same url used to display it -->
-  <form action="" method="post">
-    <!-- Django requires the following for security purposes -->
-    {% csrf_token %}
-    <table>
-      <!-- Render the inputs inside of <tr>s & <td>s -->
-      {{ form.as_table }}
-    </table>
-    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-      <i class="material-icons right">send</i>
-    </button>
-  </form>
+<!-- Leaving the action empty makes the form post to the same url used to display it -->
+<form action="" method="post">
+  <!-- Django requires the following for security purposes -->
+  {% csrf_token %}
+  <table>
+    <!-- Render the inputs inside of <tr>s & <td>s -->
+    {{ form.as_table }}
+  </table>
+  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+</form>
 
   <script>
     const dateEl = document.getElementById('id_date');
     M.Datepicker.init(dateEl, {
-      // format: 'mm-dd-yyyy',
       // format: 'yyyy-mm-dd',
       defaultDate: new Date(),
       setDefaultDate: true,
