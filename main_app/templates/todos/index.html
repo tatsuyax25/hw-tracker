@@ -7,9 +7,13 @@
 <div class="card">
     <a href="{% url 'todos_detail' todo.id %}">
         <div class="card-content">
-            <span class="card-title">{{ todo.todo }}</span>   
+            <span class="card-title">{{ todo.todo }}</span>
             <p>Due Date: {{ todo.date }}</p>
             <p>Time: {{ todo.time }}</p>
+        </div>
+        <div class="card-action">
+            <a href="{% url 'todos_update' todo.id %}" class="waves-effect waves-light btn">Edit</a>
+            <a href="{% url 'todos_delete' todo.id %}" class="waves-effect waves-light btn red">Delete</a>
         </div>
     </a>
 </div>

@@ -9,6 +9,10 @@
         <div class="card-content">
             <span class="card-title">{{ note.note }}</span>   
         </div>
+        <div class="card-action">
+            <a href="{% url 'notes_update' note.id %}" class="waves-effect waves-light btn">Edit</a>
+            <a href="{% url 'notes_delete' note.id %}" class="waves-effect waves-light btn red">Delete</a>
+          </div>
     </a>
 </div>
 {% endfor %}
