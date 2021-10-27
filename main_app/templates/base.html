@@ -11,19 +11,19 @@
   <title>Tracker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
 
   <link rel="icon"href="{% static 'favicon/icon.ico' %}">
   
 </head>
 
 <body>
-  <header class="navbar-fixed">
+  
     <nav class="nav-extended">
       <div class="nav-wrapper indigo">
         <ul>
 
-        <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
+        <li><a href="/" class="center brand-logo"><i class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a></li>
         <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
 
         </ul>
@@ -53,7 +53,7 @@
         {% endif %}
       </ul>
     </nav>
-  </header>
+ 
   <main class="container">
     {% block content %}
     {% endblock %}
@@ -62,9 +62,13 @@
     <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-    const slide_menu = document.querySelectorAll(".sidenav");
-    M.Sidenav.init(slide_menu,{});
+  <script language="javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var sidenav = M.Sidenav.init(elems);
+    console.log("This is the sidenav!", elems)
+  });
+  
   </script>
 </body>
 

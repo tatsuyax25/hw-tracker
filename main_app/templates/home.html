@@ -20,7 +20,7 @@
         <nav class="nav-extended">
             <div class="nav-wrapper purple darken-1">
                 <ul>
-                    <li><a href="/" class="center brand-logo">&nbsp;&nbsp;Tracker</a></li>
+                    <li><a href="/" class="center brand-logo"><i class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a></li>
                     <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
                 </ul>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -40,8 +40,8 @@
                 <li><a href="{% url 'home' %}">Home</a></li>
                 <li><a href="{% url 'about' %}">About</a></li>
                 {% if user.is_authenticated %}
-                <li><a href="{% url 'todos_create' %}">Create a Todo</a></li>
-                <li><a href="{% url 'index' %}">View All My Todos</a></li>
+                <li><a href="{% url 'notes_index' %}">Note</a></li>
+                    <li><a href="{% url 'index' %}">Todo</a></li>
                 <li><a href="{% url 'logout' %}">Log Out</a></li>
                 {% else %}
                 <li><a href="{% url 'signup' %}">Sign Up</a></li>
