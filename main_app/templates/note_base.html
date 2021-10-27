@@ -29,6 +29,7 @@
           <li><a href="{% url 'home' %}">Home</a></li>
           <li><a href="{% url 'about' %}">About</a></li>
           {% if user.is_authenticated %}
+          <li><a href="{% url 'index' %}">Todos</a></li>
           <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
           <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
           <li><a href="{% url 'logout' %}">Log Out</a></li>
@@ -42,6 +43,7 @@
         <li><a href="{% url 'home' %}">Home</a></li>
           <li><a href="{% url 'about' %}">About</a></li>
           {% if user.is_authenticated %}
+          <li><a href="{% url 'index' %}">Todos</a></li>
           <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
           <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
           <li><a href="{% url 'logout' %}">Log Out</a></li>

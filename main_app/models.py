@@ -3,6 +3,8 @@ from django.urls import reverse
 from django.contrib.auth.models import User
 
 # Create your models here.
+
+
 class Todo(models.Model):
     todo = models.CharField(max_length=100)
     description = models.TextField(max_length=250)
@@ -31,5 +33,12 @@ class Note(models.Model):
         return reverse('notes_detail', kwargs={'note_id': self.id})
 
 
+class Photo(models.Model):
+    url = models.CharField(max_length=200)
+    todo = models.ForeignKey(Todo, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"Photo for todo_id: {self.todo_id} @{self.url}"
+        
 class Meta:
     ordering = ['-date']
