@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="navbar-fixed">
+    
         <nav class="nav-extended">
             <div class="nav-wrapper purple darken-1">
                 <ul>
@@ -49,7 +49,7 @@
                 {% endif %}
               </ul>
         </nav>
-    </header>
+    
     <main class="container">
         {% block content %}
         {% endblock %}
@@ -58,9 +58,12 @@
         <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        const slide_menu = document.querySelectorAll(".sidenav");
-        M.Sidenav.init(slide_menu,{});
+    <script language="javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var sidenav = M.Sidenav.init(elems);
+        console.log("This is the sidenav!", elems)
+      });
       </script>
 </body>
 
