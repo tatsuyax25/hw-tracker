@@ -1,7 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-clr: black;
+  font-family: 'Cinzel';
+} 
+
+  /* set background image per page */
+  .home-bg {
+  background-image: url("/static/images/home_about-background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .about-bg {
+  background-image: url("/static/images/home_about-background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .todo-bg {
+  background: url("/static/images/todo_background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .note-bg {
+  background: url("/static/images/note_background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  color: var(--primary-clr);
 }
 
 main {
@@ -13,3 +54,14 @@ footer.page-footer {
   text-align: right;
 }
 
+textarea {
+  background-color: white;
+}
+
+.card-content > p {
+  color: black;
+}
+
+label {
+  color: black;
+}
