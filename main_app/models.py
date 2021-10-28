@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 
 class Todo(models.Model):
     todo = models.CharField(max_length=100)
+    # category = models. (should have choices)
     description = models.TextField(max_length=250)
     date = models.CharField('due date', max_length=30)
     time = models.CharField(max_length=12)
