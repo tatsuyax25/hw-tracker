@@ -8,52 +8,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
   <title>Tracker</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 
-  <link rel="icon"href="{% static 'favicon/icon.ico' %}">
+  <link rel="icon" href="{% static 'favicon/icon.ico' %}">
 
-  
+
 </head>
 
-<body>
-  
-    <nav class="nav-extended">
-      <div class="nav-wrapper green darken-2">
-        <ul>
-          <li><a href="/" class="center brand-logo"><i class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a></li>
-          <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
-        </ul>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="{% url 'home' %}">Home</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
-          {% if user.is_authenticated %}
-          <li><a href="{% url 'index' %}">Todos</a></li>
-          <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
-          <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
-          <li><a href="{% url 'logout' %}">Log Out</a></li>
-          {% else %}
-          <li><a href="{% url 'signup' %}">Sign Up</a></li>
-          <li><a href="{% url 'login' %}">Log In</a></li>
-          {% endif %}
-        </ul>
-      </div>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="{% url 'home' %}">Home</a></li>
-          <li><a href="{% url 'about' %}">About</a></li>
-          {% if user.is_authenticated %}
-          <li><a href="{% url 'index' %}">Todos</a></li>
-          <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
-          <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
-          <li><a href="{% url 'logout' %}">Log Out</a></li>
-          {% else %}
-          <li><a href="{% url 'signup' %}">Sign Up</a></li>
-          <li><a href="{% url 'login' %}">Log In</a></li>
-          {% endif %}
+<body class="note-bg">
+
+  <nav class="nav-extended">
+    <div class="nav-wrapper green darken-2">
+      <ul>
+        <li><a href="/" class="center brand-logo"><i class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a>
+        </li>
+        <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
       </ul>
-    </nav>
-  
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a href="{% url 'home' %}">Home</a></li> -->
+        <li><a href="{% url 'about' %}">About</a></li>
+        {% if user.is_authenticated %}
+        <li><a href="{% url 'index' %}">Todos</a></li>
+        <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
+        <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
+        <li><a href="{% url 'logout' %}">Log Out</a></li>
+        {% else %}
+        <li><a href="{% url 'signup' %}">Sign Up</a></li>
+        <li><a href="{% url 'login' %}">Log In</a></li>
+        {% endif %}
+      </ul>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+      <!-- <li><a href="{% url 'home' %}">Home</a></li> -->
+      <li><a href="{% url 'about' %}">About</a></li>
+      {% if user.is_authenticated %}
+      <li><a href="{% url 'index' %}">Todos</a></li>
+      <li><a href="{% url 'notes_create' %}">Add a Note</a></li>
+      <li><a href="{% url 'notes_index' %}">View All My Notes</a></li>
+      <li><a href="{% url 'logout' %}">Log Out</a></li>
+      {% else %}
+      <li><a href="{% url 'signup' %}">Sign Up</a></li>
+      <li><a href="{% url 'login' %}">Log In</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+
   <main class="container">
     {% block content %}
     {% endblock %}
@@ -63,11 +65,11 @@
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script language="javascript">
-    document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var sidenav = M.Sidenav.init(elems);
-    console.log("This is the sidenav!", elems)
-  });
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var sidenav = M.Sidenav.init(elems);
+      console.log("This is the sidenav!", elems)
+    });
   </script>
 </body>
 
