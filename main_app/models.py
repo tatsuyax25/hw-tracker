@@ -24,6 +24,7 @@ class Todo(models.Model):
     description = models.TextField(max_length=250)
     date = models.CharField('due date', max_length=30)
     time = models.CharField(max_length=12)
+    test = models.CharField(max_length=100)
 
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
