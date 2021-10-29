@@ -36,7 +36,7 @@ def todos_detail(request, todo_id):
 
 class TodoCreate(LoginRequiredMixin, CreateView):
     model = Todo
-    fields = ['category','description', 'date', 'time']
+    fields = ['todo','category','description', 'date', 'time']
 
     def form_valid(self, form):
         form.instance.user = self.request.user
@@ -47,7 +47,7 @@ class TodoCreate(LoginRequiredMixin, CreateView):
 class TodoUpdate(LoginRequiredMixin, UpdateView):
     model = Todo
     # Let's disallow the renaming of a cat by excluding the name field!
-    fields = ['category','description', 'date', 'time']
+    fields = ['todo','category','description', 'date', 'time']
 
 
 class TodoDelete(LoginRequiredMixin, DeleteView):
