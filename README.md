@@ -3,7 +3,7 @@
 -----
 
 ## Link to deployed app: https://gatracker.herokuapp.com/
----
+
 
 ## Description
 ---
