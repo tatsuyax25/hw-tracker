@@ -5,16 +5,14 @@
 
 
 ## Description
----
-
 Tracker is a hub where GA software engineering students can track their current homework assignments and their corresponding due dates using todo lists and notes.
 
 ## Screenshots
 ---
 | Description | Screenshot |
 |------------ | ------------|
-| Home Page | ![All Projects](main_app/static/images/zoom.png)
-| Todos List | ![All Projects](main_app/static/images/zoom.png)
+| Home Page | ![All Projects](main_app/static/images/home_screenshot.jpg)
+| Todos List | ![All Projects](main_app/static/images/todos_list_screenshot.jpg)
 | Todo Detail | ![All Projects](main_app/static/images/zoom.png)
 | Home Page | ![All Projects](main_app/static/images/zoom.png)
 
