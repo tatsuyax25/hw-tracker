@@ -12,32 +12,21 @@
     <title>Tracker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-    <link rel="icon"href="{% static 'favicon/icon.ico' %}">
-    
+    <link rel="icon" href="{% static 'favicon/icon.ico' %}">
+
 </head>
 
 <body class="about-bg">
-    
-        <nav class="nav-extended">
-            <div class="nav-wrapper grey darken-1">
-                <ul>
-                    <li><a href="/" class="center brand-logo"><i class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a></li>
-                    <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i class="material-icons">menu</i></a>
-                </ul>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <!-- <li><a href="{% url 'home' %}">Home</a></li> -->
-                    <li><a href="{% url 'about' %}">About</a></li>
-                    {% if user.is_authenticated %}
-                    <li><a href="{% url 'notes_index' %}">Note</a></li>
-                    <li><a href="{% url 'index' %}">Todo</a></li>
-                    <li><a href="{% url 'logout' %}">Log Out</a></li>
-                    {% else %}
-                    <li><a href="{% url 'signup' %}">Sign Up</a></li>
-                    <li><a href="{% url 'login' %}">Log In</a></li>
-                    {% endif %}
-                </ul>
-            </div>
-            <ul class="sidenav" id="mobile-demo">
+
+    <nav class="nav-extended">
+        <div class="nav-wrapper grey darken-1">
+            <ul>
+                <li><a href="/" class="center brand-logo"><i
+                            class="large material-icons">done_all</i>&nbsp;&nbsp;Tracker</a></li>
+                <a href="#" data-target="mobile-demo" class="left sidenav-trigger"><i
+                        class="material-icons">menu</i></a>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <!-- <li><a href="{% url 'home' %}">Home</a></li> -->
                 <li><a href="{% url 'about' %}">About</a></li>
                 {% if user.is_authenticated %}
@@ -49,23 +38,93 @@
                 <li><a href="{% url 'login' %}">Log In</a></li>
                 {% endif %}
             </ul>
-        </nav>
-    
-    <main class="container">
-        {% block content %}
-        {% endblock %}
-    </main>
-    <footer class="right page-footer grey darken-1">
-        <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script language="javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var sidenav = M.Sidenav.init(elems);
-        console.log("This is the sidenav!", elems)
-      });
-      </script>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <!-- <li><a href="{% url 'home' %}">Home</a></li> -->
+            <li><a href="{% url 'about' %}">About</a></li>
+            {% if user.is_authenticated %}
+            <li><a href="{% url 'notes_index' %}">Note</a></li>
+            <li><a href="{% url 'index' %}">Todo</a></li>
+            <li><a href="{% url 'logout' %}">Log Out</a></li>
+            {% else %}
+            <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            <li><a href="{% url 'login' %}">Log In</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    <div class="card blue darken-1">
+
+        <main class="container">
+            <div style="margin-top: 100px"></div>
+            <div class="bg-light py-5">
+                <div class="container py-5">
+                    <div class="row mb-4">
+                        <div class="col-lg-5">
+                            <h4 class="display-4 font-weight-light center-align">Mission</h4>
+                            <h5 class="display-4 font-weight-light center-align">To help GA students get organized</h5>
+                        </div>
+                        <div class="col-lg-5">
+                            <h4 class="display-4 font-weight-light center-align">About Us</h4>
+                            <h5 class="display-4 font-weight-light center-align">Tracker provides an easy way to keep
+                                track of upcoming GA homework and their corresponding due dates. </h5>
+                        </div>
+                        <div class="col-lg-5">
+                            <h4 class="display-4 font-weight-light center-align">Meet The Team</h4>
+                        </div>
+                    </div>
+                    <div class="row text-center center-align">
+                        <div class="col-xl-4 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="../static/images/navid.jpeg"
+                                    class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Navid Yazdani</h5>
+                                <span class="small text-uppercase text-muted">Back-End</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center center-align">
+                        <div class="col-xl-4 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="../static/images/miguel.jpeg"
+                                    class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Miguel Urena</h5>
+                                <span class="small text-uppercase text-muted">Front-End</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center center-align">
+                        <div class="col-xl-4 col-sm-6 mb-5">
+                            <div class="bg-white rounded shadow-sm py-5 px-4">
+                                <img src="../static/images/amar.jpeg"
+                                    class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                <h5 class="mb-0">Amar Panjwani</h5>
+                                <span class="small text-uppercase text-muted">All-Ends</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+
+
+        <main class="container">
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer class="right page-footer grey darken-1">
+            <footer>All Rights Reserved, &copy; 2021 Tracker</footer>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script language="javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                var sidenav = M.Sidenav.init(elems);
+                console.log("This is the sidenav!", elems)
+            });
+        </script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 <p align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</p>
 -----
 
-## Link to deployed app: http:_________
+## Link to deployed app: https://gatracker.herokuapp.com/
 ---
 
 ## Description
