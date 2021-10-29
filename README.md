@@ -12,6 +12,7 @@ Tracker is a hub where GA software engineering students can track their current 
 | Description | Screenshot |
 |------------ | ------------|
 | Home Page | ![All Projects](main_app/static/images/home_screenshot.jpg)
+| Home Page | ![All Projects](main_app/static/images/testhome.jpg)
 | Todos List | ![All Projects](main_app/static/images/todos_list_screenshot.jpg)
 | Todo Detail | ![All Projects](main_app/static/images/zoom.png)
 | Home Page | ![All Projects](main_app/static/images/zoom.png)
