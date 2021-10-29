@@ -7,10 +7,10 @@
 <div class="card">
     <a href="{% url 'todos_detail' todo.id %}">
         <div class="card-content">
-            <span class="card-title">{{ todo.todo }}</span>
-            <p>Category: {{ todo.get_category_display }}</p>
-            <p>Due Date: {{ todo.date }}</p>
-            <p>Time: {{ todo.time }}</p>
+            <span class="card-title"><h3>{{ todo.todo }}</h3></span>
+            <h4>Due Date: {{ todo.date }}</h4>
+            <h4>Time: {{ todo.time }}</h4>
+            <h5>Category: {{ todo.get_category_display }}</h5>
         </div>
         <div class="card-action">
             <a href="{% url 'todos_update' todo.id %}" class="waves-effect waves-light btn">Edit</a>
