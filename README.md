@@ -18,7 +18,7 @@ Tracker is a hub where GA software engineering students can track their current 
 | Add a Note | ![All Projects](main_app/static/images/screenshots/note_add_screenshot.jpg)
 
 ## Technologies Used
-Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Navid's Brain</s>
+Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
 
 ## Getting Started
 1. Click on "Todos" in the nav bar. 
