@@ -56,7 +56,7 @@ class TodoDelete(LoginRequiredMixin, DeleteView):
 
 @login_required
 def notes_index(request):
-    notes = Note.objects.all()
+    notes = Note.objects.filter(user=request.user)
     return render(request, 'notes/index.html', { 'notes': notes })
 @login_required
 def notes_detail(request, note_id):
