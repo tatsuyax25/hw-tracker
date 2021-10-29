@@ -30,9 +30,12 @@
 
     const timeEl = document.getElementById('id_time');
     M.Timepicker.init(timeEl, {
-      defaultTime: 'now',
+      defaultTime: '11:59 PM',
       twelveHour: true,
       autoClose: true
     });
+
+    var selectEl = document.getElementById('id_category');
+    M.FormSelect.init(selectEl);
   </script>
 {% endblock %}

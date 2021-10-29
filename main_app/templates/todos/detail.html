@@ -6,6 +6,7 @@
 <div class="card">
   <div class="card-content">
     <span class="card-title">{{ todo.todo }}</span>
+            <p>Category: {{ todo.get_category_display }}</p>
             <p>Description: {{ todo.description }}</p>
             <p>Date: {{ todo.date }}</p>
             <p>Time: {{ todo.time}}</p>
