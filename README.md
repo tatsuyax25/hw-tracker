@@ -1,7 +1,7 @@
  <h1 align="center">TRACKER </h1>
 <p align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</p>
 
-## <h2 align="center">https://GAtracker.herokuapp.com/
+## <h2 align="center">https://gatracker.herokuapp.com/
 
 
 ## Description
@@ -25,13 +25,14 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Navid's
 2. Click on "Create a Todo" in the nav bar.
 3. Write a name and description for your assignment.
 4. Assign a due date and time using the pop-up selectors.
-5. Hit Submit, and go finish on your assignment before it's due! 
+5. Hit Submit, and go finish your assignment before it's due! 
 
-## [Trello Board](https://trello.com/b/PUkOSwTq/tracker-project-3)
+## Resources
+#### [Trello Board](https://trello.com/b/PUkOSwTq/tracker-project-3)
 
-## [Pitch-Deck](https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing)
+#### [Pitch-Deck](https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing)
 
-## [Heroku Deployment](https://GAtracker.herokuapp.com/)
+#### [Heroku Deployment](https://gatracker.herokuapp.com/)
 
 ## Next Steps
 + Add sync functionality with Outcomes Google Classroom assignments
