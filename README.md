@@ -25,7 +25,7 @@ Python | Django | PostgreSQL | AWS | Heroku | HTML | CSS
 
 ## Getting Started
 ---
-1. 
+1. Test
 2.
 3.
 
