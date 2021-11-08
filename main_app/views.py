@@ -24,8 +24,7 @@ def about(request):
 
 @login_required
 def todos_index(request):
-    #todos = Todo.objects.filter(user=request.user)
-    todos = Todo.objects.filter()
+    todos = Todo.objects.filter(user=request.user)
     return render(request, 'todos/index.html', {'todos': todos})
 
 
@@ -57,8 +56,7 @@ class TodoDelete(LoginRequiredMixin, DeleteView):
 
 @login_required
 def notes_index(request):
-    #notes = Note.objects.filter(user=request.user)
-    notes = Note.objects.filter()
+    notes = Note.objects.filter(user=request.user)
     return render(request, 'notes/index.html', { 'notes': notes })
 @login_required
 def notes_detail(request, note_id):
