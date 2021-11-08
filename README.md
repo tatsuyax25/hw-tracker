@@ -1,6 +1,6 @@
  # <h1 align="center">TRACKER </h1>
- #### <h4 align="center">https://gatracker.herokuapp.com/</h4>
- <p align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</p>
+ #### <h2 align="center">https://gatracker.herokuapp.com/</h2>
+ <h5 align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</h5>
 
 
 
@@ -29,18 +29,34 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 5. Hit Submit, and go finish your assignment before it's due! 
 
 ## Resources
-#### [Trello Board](https://trello.com/b/PUkOSwTq/tracker-project-3)
+<details>
+<summary>Trello Board</summary>
+<a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3></a>
+</details>
 
-#### [Pitch-Deck](https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing)
+<details>
+<summary>Pitch-Deck</summary>
+<a href="https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing">https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing></a>
+</details>
 
-#### [Heroku Deployment](https://gatracker.herokuapp.com/)
+<details>
+<summary>Deployed Link (Heroku)</summary>
+<a href="https://gatracker.herokuapp.com">https://gatracker.herokuapp.com</a>
+</details>
+
+<!-- #### [Pitch-Deck](https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing)
+
+#### [Heroku Deployment](https://gatracker.herokuapp.com/) -->
 
 ## Next Steps
 + Add sync functionality with Outcomes Google Classroom assignments
 + Add sync functionality with Google Calendar
 
 ## Contributions
-- Navid Yazdani - Back-End Lead, Head Programmer, Coding Logic, Database Manager
-- Miguel Urena - Front-End Lead, Design, Vision, Layout, Wireframes
-- Amar Panjwani - Team Lead, Organization, Planning, Quality Control, Documentation, AWS Image Hosting
+- Navid Yazdani
+    - Back-End Lead, Head Programmer, Coding Logic, Database Manager
+- Miguel Urena
+    - Front-End Lead, Design, Styling, Vision, Layout, Wireframes, ERD Diagram
+- Amar Panjwani
+    - Team Lead, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, Github Manager, User Stories
 
