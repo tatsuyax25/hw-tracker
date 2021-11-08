@@ -39,7 +39,7 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 + Add sync functionality with Google Calendar
 
 ## Contributions
-1. Navid Yazdani - Back-End Lead, Head Programmer, Coding Logic, Database Manager
-2. Miguel Urena - Front-End Lead, Design, Vision, Layout, Wireframes
-3. Amar Panjwani - Team Lead, Organization, Planning, Quality Control, Documentation, AWS Image Hosting
+- Navid Yazdani - Back-End Lead, Head Programmer, Coding Logic, Database Manager
+- Miguel Urena - Front-End Lead, Design, Vision, Layout, Wireframes
+- Amar Panjwani - Team Lead, Organization, Planning, Quality Control, Documentation, AWS Image Hosting
 
