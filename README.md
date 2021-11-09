@@ -1,6 +1,6 @@
  # <h1 align="center">TRACKER </h1>
- #### <h2 align="center">https://gatracker.herokuapp.com/</h2>
- <h5 align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</h5>
+ #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
+ <h5 align="center">Amar Panjwani | Miguel Urena | Navid Yazdani</h5>
 
 
 
