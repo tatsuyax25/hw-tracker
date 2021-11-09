@@ -31,7 +31,7 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 ## Resources
 <details>
 <summary>Trello Board</summary>
-<a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3></a>
+<a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3</a>
 </details>
 
 <details>
