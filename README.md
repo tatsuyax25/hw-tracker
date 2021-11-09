@@ -53,10 +53,19 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 + Add sync functionality with Google Calendar
 
 ## Contributions
-- Navid Yazdani
-    - Back-End Lead, Head Programmer, Coding Logic, Database Manager
-- Miguel Urena
-    - Front-End Lead, Design, Styling, Vision, Layout, Wireframes, ERD Diagram
-- Amar Panjwani
-    - Team Lead, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, Github Manager, User Stories
+<details>
+<summary>Navid Yazdani</summary>
+<h4> Back-End Lead, Head Programmer, Coding Logic, Database Manager </h4>
+</details>
+
+<details>
+<summary>Miguel Angel Urena </summary>
+<h4> Front-End Lead, Design, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
+</details>
+
+<details>
+<summary>Amar 'Pan' Panjwani</summary>
+<h4> Team Lead, GitHub Workflow Manager, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
+</details>
+
 
