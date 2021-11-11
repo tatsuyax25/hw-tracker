@@ -12,7 +12,6 @@ Tracker is a hub where GA software engineering students can track their current 
 | Description | Screenshot |
 |------------ | ------------|
 | <h3 align="center">ERD</h3> | <img src="main_app/static/images/ERD.jpg" width="600">
-<!-- | <h3 align="center">ERD</h3> | <img src="main_app/static/images/David-Szakaly-6.gif" width="600"> -->
 | <h3 align="center">Wireframes</h3> | <img src="main_app/static/images/wireframes/all_wireframes.jpg" width="600">
 | <h3 align="center">Home Page</h3> | <img src="main_app/static/images/screenshots/home_screenshot.jpg" width="600">
 | <h3 align="center">Todos List</h3> | <img src="main_app/static/images/screenshots/todos_list_screenshot.jpg" width="600">
