@@ -1,6 +1,6 @@
  # <h1 align="center">TRACKER </h1>
- #### <h2 align="center">https://gatracker.herokuapp.com/</h2>
- <h5 align="center">by Amar Panjwani, Miguel Urena, and Navid Yazdani</h5>
+ #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
+ <h5 align="center">Amar Panjwani | Miguel Urena | Navid Yazdani</h5>
 
 
 
@@ -11,22 +11,33 @@ Tracker is a hub where GA software engineering students can track their current 
 ## Screenshots
 | Description | Screenshot |
 |------------ | ------------|
-| ERD | ![All Projects](main_app/static/images/ERD.jpg)
-| Wireframes | ![All Projects](main_app/static/images/wireframes/all_wireframes.jpg)
-| Home Page | ![All Projects](main_app/static/images/screenshots/home_screenshot.jpg)
-| Todos List | ![All Projects](main_app/static/images/screenshots/todos_list_screenshot.jpg)
-| Todo Details | ![All Projects](main_app/static/images/screenshots/todo_details_screenshot.jpg)
-| Add a Note | ![All Projects](main_app/static/images/screenshots/note_add_screenshot.jpg)
+| <h3 align="center">ERD</h3> | <img src="main_app/static/images/ERD.jpg" width="600">
+| <h3 align="center">Wireframes</h3> | <img src="main_app/static/images/wireframes/all_wireframes.jpg" width="600">
+| <h3 align="center">Home Page</h3> | <img src="main_app/static/images/screenshots/home_screenshot.jpg" width="600">
+| <h3 align="center">Todos List</h3> | <img src="main_app/static/images/screenshots/todos_list_screenshot.jpg" width="600">
+| <h3 align="center">Todo Details</h3> | <img src="main_app/static/images/screenshots/todo_details_screenshot.jpg" width="600">
+| <h3 align="center">Add a Note</h3> | <img src="main_app/static/images/screenshots/note_add_screenshot.jpg" width="600">
 
 ## Technologies Used
 Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
 
 ## Getting Started
+
+<details>
+<summary>How to Use</summary>
+ 
 1. Click on "Todos" in the nav bar. 
+ 
 2. Click on "Create a Todo" in the nav bar.
+ 
 3. Write a name and description for your assignment.
+ 
 4. Assign a due date and time using the pop-up selectors.
+ 
 5. Hit Submit, and go finish your assignment before it's due! 
+ 
+</details>
+
 
 ## Resources
 <details>
@@ -65,7 +76,7 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 
 <details>
 <summary>Amar 'Pan' Panjwani</summary>
-<h4> Team Lead, GitHub Workflow Manager, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories</h4>
+<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
 </details>
 
 
