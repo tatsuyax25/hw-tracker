@@ -71,7 +71,7 @@ Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of
 
 <details>
 <summary>Miguel Angel Urena </summary>
-<h4> Front-End Lead, Design, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
+<h4> Front-End Lead, Design, UX, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
 </details>
 
 <details>
