@@ -19,7 +19,7 @@ Tracker is a hub where GA software engineering students can track their current 
 | <h3 align="center">Add a Note</h3> | <img src="main_app/static/images/screenshots/note_add_screenshot.jpg" width="600">
 
 ## Technologies Used
-Python | Django | PostgreSQL | AWS | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
+Python | Django | PostgreSQL | AWS S3 | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
 
 ## Getting Started
 
