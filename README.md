@@ -1,4 +1,4 @@
- # <h1 align="center">TRACKER </h1>
+ # <h1 align="center">:hourglass_flowing_sand: TRACKER :hourglass_flowing_sand: </h1>
  #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
  <h5 align="center">Amar Panjwani | Miguel Urena | Navid Yazdani</h5>
 
