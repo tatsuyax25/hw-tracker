@@ -21,7 +21,11 @@ Tracker is a hub where GA software engineering students can track their current 
 | <h3 align="center">Add a Note</h3> | <img src="main_app/static/images/screenshots/note_add_screenshot.jpg" width="600">
 
 ## :computer: Technologies Used
-Python | Django | PostgreSQL | AWS S3 | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
+![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
+![Django](https://img.shields.io/badge/-Django-333?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=flat&logo=postgresql) ![AWS S3](https://img.shields.io/badge/-AWS_S3-333?style=flat&logo=amazons3)![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
+![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)    ![](https://img.shields.io/badge/-Lots_of_Caffeine-333?style=flat&logo=buymeacoffee)
 
 ## ⚛️ Getting Started
 
