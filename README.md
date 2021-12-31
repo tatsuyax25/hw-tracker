@@ -8,7 +8,7 @@
 ## 📝 Description
 Tracker is a hub where GA software engineering students can track their current homework assignments and corresponding due dates using todo lists and notes.
 
-## Screenshots
+## :camera: Screenshots
 | Description | Screenshot |
 |------------ | ------------|
 | <h3 align="center">ERD</h3> | <img src="main_app/static/images/ERD.jpg" width="600">
@@ -18,10 +18,10 @@ Tracker is a hub where GA software engineering students can track their current 
 | <h3 align="center">Todo Details</h3> | <img src="main_app/static/images/screenshots/todo_details_screenshot.jpg" width="600">
 | <h3 align="center">Add a Note</h3> | <img src="main_app/static/images/screenshots/note_add_screenshot.jpg" width="600">
 
-## Technologies Used
+## :computer: Technologies Used
 Python | Django | PostgreSQL | AWS S3 | Heroku | Adobe XD | HTML | CSS | <s>Lots of Advil</s>
 
-## Getting Started
+## ⚛️ Getting Started
 
 <details>
 <summary>How to Use</summary>
@@ -39,7 +39,7 @@ Python | Django | PostgreSQL | AWS S3 | Heroku | Adobe XD | HTML | CSS | <s>Lots
 </details>
 
 
-## Resources
+### 🔗 Links
 <details>
 <summary>Trello Board</summary>
 <a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3</a>
@@ -59,11 +59,11 @@ Python | Django | PostgreSQL | AWS S3 | Heroku | Adobe XD | HTML | CSS | <s>Lots
 
 #### [Heroku Deployment](https://gatracker.herokuapp.com/) -->
 
-## Next Steps
+## ⏭️ Next Steps
 + Add sync functionality with Outcomes Google Classroom assignments
 + Add sync functionality with Google Calendar
 
-## Contributions
+## :busts_in_silhouette: Contributions
 <details>
 <summary>Navid Yazdani</summary>
 <h4> Back-End Lead, Head Programmer, Coding Logic, Database Manager </h4>
