@@ -1,6 +1,6 @@
  # <h1 align="center">:hourglass_flowing_sand: TRACKER :hourglass_flowing_sand: </h1>
  #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
- <h5 align="center">Pan Amar | Miguel Urena | Navid Yazdani</h5>
+ <h5 align="center">Miguel Urena | Amar Panjwani | Navid Yazdani</h5>
 
  
 
@@ -71,6 +71,11 @@ Tracker is a hub where GA software engineering students can track their current 
 
 ## :busts_in_silhouette: Contributions
 <details>
+<summary>Amar Panjwani</summary>
+<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
+</details>
+
+<details>
 <summary>Navid Yazdani</summary>
 <h4> Back-End Lead, Head Programmer, Coding Logic, Database Manager </h4>
 </details>
@@ -80,9 +85,6 @@ Tracker is a hub where GA software engineering students can track their current 
 <h4> Front-End Lead, Design, UX, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
 </details>
 
-<details>
-<summary>Amar 'Pan' Panjwani</summary>
-<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
-</details>
+
 
 
