@@ -8,7 +8,7 @@
 
 
 ## 📝 Description
-Tracker is a hub where GA software engineering students can track their current homework assignments and corresponding due dates using todo lists and notes.
+Tracker is a hub where General Assembly (GA) software engineering students can track their current homework assignments and corresponding due dates using todo lists and notes.
 
 ## :camera: Screenshots
 | Description | Screenshot |
