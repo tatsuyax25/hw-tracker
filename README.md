@@ -1,7 +1,8 @@
  # <h1 align="center">:hourglass_flowing_sand: TRACKER :hourglass_flowing_sand: </h1>
  #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
- <h5 align="center">Miguel Urena | Amar Panjwani | Navid Yazdani</h5>
+ <h5 align="center">Miguel Urena | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | Navid Yazdani</h5>
 
+ 
 <div align="center">
  <a href="https://amarpan.github.io/portfolio" target="_blank">
     <img src="https://img.shields.io/badge/-amarpan.github.io/portfolio-gold?style=flat&logo=github">
