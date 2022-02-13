@@ -76,7 +76,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 <a href="https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing">https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing></a>
 </details>
 
-<details>
+<details open>
 <summary>Deployed Link (Heroku)</summary>
 <a href="https://gatracker.herokuapp.com">https://gatracker.herokuapp.com</a>
 </details>
@@ -92,7 +92,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 ## :busts_in_silhouette: Contributions
 <details>
 <summary>Amar Panjwani</summary>
-<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
+<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS S3 Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
 </details>
 
 <details>
