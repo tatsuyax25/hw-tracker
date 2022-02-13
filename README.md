@@ -1,6 +1,6 @@
  # <h1 align="center">:hourglass_flowing_sand: TRACKER :hourglass_flowing_sand: </h1>
  #### <h3 align="center">https://gatracker.herokuapp.com/</h3>
- <h5 align="center">Miguel Urena | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | Navid Yazdani</h5>
+
 
  
 <div align="center">
@@ -21,6 +21,7 @@
     <img src="https://img.shields.io/badge/-amar.panjwani@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
  </a>
     
+ <h5 align="center">Miguel Urena | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | Navid Yazdani</h5>
  </div>
 
  
