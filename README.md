@@ -21,7 +21,7 @@
     <img src="https://img.shields.io/badge/-amarpan.us@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
  </a>
     
- <h5 align="center">Miguel Urena | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | Navid Yazdani</h5>
+ <h5 align="center"><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a>  | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | <a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a> </h5>
  </div>
 
  
