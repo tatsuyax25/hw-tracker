@@ -5,21 +5,45 @@
  
 <div align="center">
  <a href="https://amarpan.github.io/portfolio" target="_blank">
-    <img src="https://img.shields.io/badge/-amarpan.github.io/portfolio-gold?style=flat&logo=github">
+    <img src="https://img.shields.io/badge/-amarpan.github.io/portfolio-gold?style=flat&logo=materialdesign&logoColor=white">
  </a>
+
+ <a href="https://www.github.com/amarpan/" target="_blank">
+        <img
+          src="https://img.shields.io/badge/-github.com/amarpan-orange?style=flat&logo=GitHub&logoColor=white">
+      </a>
     
  <a href="https://www.linkedin.com/in/amarpan/" target="_blank">
       <img src="https://img.shields.io/badge/-linkedin.com/in/amarpan-blue?style=flat&logo=Linkedin&logoColor=white">
  </a> 
-    
- 
- <a href="https://medium.com/@amarpan">
+
+  <a href="https://medium.com/@amarpan">
     <img src="https://img.shields.io/badge/-medium.com/@amarpan-purple?style=flat&logo=medium">
  </a>
- 
- <a href="mailto:amarpan.us@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-amarpan.us@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white">
+
+ <a href="mailto:amar.panjwani@generalassemb.ly" target="_blank">
+    <img src="https://img.shields.io/badge/-amar.panjwani@generalassemb.ly-c14438?style=flat&logo=Gmail&logoColor=white">
  </a>
+
+ <br>
+ 
+
+ <a href="https://twitter.com/amarpan396" target="_blank">
+      <img src="https://img.shields.io/badge/-twitter.com/in/amarpan396-skyblue?style=flat&logo=Linkedin&logoColor=white">
+ </a> 
+
+ <a href="https://www.facebook.com/amarpan396/" target="_blank">
+      <img src="https://img.shields.io/badge/-facebook.com/amarpan396-darkblue?style=flat&logo=Facebook&logoColor=white">
+ </a> 
+
+ <a href="https://www.instagram.com/amarpan.us/" target="_blank">
+      <img src="https://img.shields.io/badge/-instagram.com/amarpan.us-hotpink?style=flat&logo=Instagram&logoColor=white">
+ </a> 
+    
+ 
+ 
+    
+ </div>
     
  <h5 align="center"><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a>  | <a href="https://www.linkedin.com/in/amarpan/">Amar Panjwani </a> | <a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a> </h5>
  </div>
