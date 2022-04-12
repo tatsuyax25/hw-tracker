@@ -73,7 +73,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 ![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)    ![](https://img.shields.io/badge/-Lots_of_Caffeine-333?style=flat&logo=buymeacoffee)
 
-## ⚛️ Getting Started
+## 🔥 Getting Started
 
 <details>
 <summary>How to Use</summary>
