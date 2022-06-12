@@ -117,7 +117,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 
 ## :busts_in_silhouette: Contributions
 <details>
-<summary>Amar Panjwani</summary>
+<summary>Amar Pan</summary>
 <h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS S3 Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
 </details>
 
