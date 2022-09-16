@@ -72,8 +72,8 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 #### [Heroku Deployment](https://gatracker.herokuapp.com/) -->
 
 ## ⏭️ Next Steps
-+ Add sync functionality with Outcomes Google Classroom assignments
-+ Add sync functionality with Google Calendar
+- [ ] Add sync functionality with Outcomes Google Classroom assignments
+- [ ] Add sync functionality with Google Calendar
 
 ## :busts_in_silhouette: Contributions
 <details>
