@@ -35,18 +35,18 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 
 ## 🔥 Getting Started
 
-<details>
+<details open>
 <summary>How to Use</summary>
  
-1. Click on "Todos" in the nav bar. 
+:one: Click on "Todos" in the nav bar. 
  
-2. Click on "Create a Todo" in the nav bar.
+:two: Click on "Create a Todo" in the nav bar.
  
-3. Write a name and description for your assignment.
+:three: Write a name and description for your assignment.
  
-4. Assign a due date and time using the pop-up selectors.
+:four: Assign a due date and time using the pop-up selectors.
  
-5. Hit Submit, and go finish your assignment before it's due! 
+:five: Hit Submit, and go finish your assignment before it's due! 
  
 </details>
 
