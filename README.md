@@ -82,12 +82,12 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 </details>
 
 <details>
-<summary>Navid Yazdani</summary>
+<summary><a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a></summary>
 <h4> Back-End Lead, Head Programmer, Coding Logic, Database Manager </h4>
 </details>
 
 <details>
-<summary>Miguel Angel Urena </summary>
+<summary><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a></summary>
 <h4> Front-End Lead, Design, UX, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
 </details>
 
