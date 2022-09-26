@@ -5,7 +5,13 @@
  
 
     
- <h5 align="center"><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a>  | <a href="https://www.linkedin.com/in/profpan396/">Amar Pan </a> | <a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a> </h5>
+ <h5 align="center">
+ <a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a>  | <a href="https://www.linkedin.com/in/profpan396/">Amar Pan </a> | <a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a><br><br>
+ 
+ ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
+ 
+  </h5>
+ 
  </div>
 
  
