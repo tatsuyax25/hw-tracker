@@ -1,4 +1,9 @@
- # <h1 align="center">:hourglass_flowing_sand: TRACKER :hourglass_flowing_sand: </h1>
+ <div align="center">
+ 
+ # TRACKER <br> :hourglass_flowing_sand::newspaper::hourglass_flowing_sand:
+ 
+ </div>
+ 
  #### <h3 align="center"><a href="https://gatracker.herokuapp.com/">CLICK TO DEMO</a></h3>
 
 
