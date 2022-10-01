@@ -1,28 +1,20 @@
- <div align="center">
+ <div align="center" id="header">
  
- # TRACKER <br> :hourglass_flowing_sand::newspaper::hourglass_flowing_sand:
+# GA HW TRACKER
+**Created by [Amar Pan](https://www.linkedin.com/in/profpan396/) | [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) | [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**  
+#### [CLICK TO DEMO](https://reviewmyproject.herokuapp.com) 
  
- </div>
- 
- #### <h3 align="center"><a href="https://gatracker.herokuapp.com/">CLICK TO DEMO</a></h3>
+</div>
 
+<div align="center" id="socialbuttons">
 
- 
+  ![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
+  ![Last Commit](https://img.shields.io/github/last-commit/profpan396/ga-hw-tracker)
+  ![Stars](https://img.shields.io/github/stars/profpan396/ga-hw-tracker)
+  <br>
+  ![Version](https://img.shields.io/badge/version-1.0-black)
 
-    
- <h5 align="center">
- <a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a>  | <a href="https://www.linkedin.com/in/profpan396/">Amar Pan </a> | <a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a><br><br>
- 
- ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
- 
-  </h5>
- 
- </div>
-
- 
-
-
-
+</div>
 
 ## 📝 Description
 Tracker is a hub where General Assembly (GA) software engineering students can track their current homework assignments and corresponding due dates using todo lists and notes.
