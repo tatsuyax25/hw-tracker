@@ -2,7 +2,7 @@
  
 # GA HW TRACKER
 **Created by [Amar Pan](https://www.linkedin.com/in/profpan396/) | [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) | [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**  
-#### [CLICK TO DEMO](https://reviewmyproject.herokuapp.com) 
+#### [CLICK TO DEMO](https://gatracker.herokuapp.com/) 
  
 </div>
 
