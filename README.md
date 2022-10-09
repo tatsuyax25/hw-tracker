@@ -8,7 +8,7 @@
 
 <div align="center" id="socialbuttons">
 
-  ![Visitor Badge](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
+  ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
   ![Last Commit](https://img.shields.io/github/last-commit/profpan396/ga-hw-tracker)
   ![Stars](https://img.shields.io/github/stars/profpan396/ga-hw-tracker)
   <br>
