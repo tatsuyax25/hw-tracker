@@ -79,19 +79,19 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 - [ ] Add sync functionality with Google Calendar
 
 ## :busts_in_silhouette: Contributions
-<details>
+<details open>
  <summary><a href="http://www.linkedin.com/in/profpan396/">Amar Pan</a></summary>
-<h4> Team Lead, GitHub Workflow Manager, Scrum Master, Organization / Planning, Documentation, AWS S3 Image Hosting, Deployment, Pitch-Deck, User Stories </h4>
+<h4> Team Lead / GitHub Workflow Manager / Scrum Master, Organization / Planning, Documentation, AWS S3 Image Hosting, Deployment / Pitch-Deck / User Stories </h4>
 </details>
 
-<details>
+<details open>
 <summary><a href="https://www.linkedin.com/in/navidyazdani7/">Navid Yazdani </a></summary>
-<h4> Back-End Lead, Head Programmer, Coding Logic, Database Manager </h4>
+<h4> Back-End Lead / Head Programmer / Coding Logic / Database Manager </h4>
 </details>
 
-<details>
+<details open>
 <summary><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a></summary>
-<h4> Front-End Lead, Design, UX, Styling, Vision, Layout, Wireframes, ERD Diagram </h4>
+<h4> Front-End Lead / Design / UX / UI / Styling / Vision / Layout / Wireframes / ERD Diagram </h4>
 </details>
 
 
