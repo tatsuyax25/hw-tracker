@@ -3,14 +3,15 @@
 # GA HW TRACKER
 **Created by <br> [Amar Pan](https://www.linkedin.com/in/profpan396/) | [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) | [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**  
 #### [CLICK TO DEMO](https://gatracker.herokuapp.com/) 
+<br>
  
 </div>
 
 <div align="center" id="socialbuttons">
 
-  ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.ga-hw-tracker)
-  ![Last Commit](https://img.shields.io/github/last-commit/profpan396/ga-hw-tracker)
-  ![Stars](https://img.shields.io/github/stars/profpan396/ga-hw-tracker)
+  ![Stars](https://img.shields.io/github/stars/profpan396/ga-hw-tracker?style=social)
+  ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.ga-hw-tracker)
+  ![Forks](https://img.shields.io/github/forks/profpan396/ga-hw-tracker?style=social)
   <br>
   ![Version](https://img.shields.io/badge/version-1.0-black)
 
