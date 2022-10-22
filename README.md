@@ -21,12 +21,12 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 ## :camera: Screenshots
 | Description | Screenshot |
 |------------ | ------------|
-| <h3 align="center">ERD</h3> | <img src="main_app/static/images/ERD.jpg" width="600">
-| <h3 align="center">Wireframes</h3> | <img src="main_app/static/images/wireframes/all_wireframes.jpg" width="600">
 | <h3 align="center">Home Page</h3> | <img src="main_app/static/images/screenshots/home_screenshot.jpg" width="600">
 | <h3 align="center">Todos List</h3> | <img src="main_app/static/images/screenshots/todos_list_screenshot.jpg" width="600">
 | <h3 align="center">Todo Details</h3> | <img src="main_app/static/images/screenshots/todo_details_screenshot.jpg" width="600">
 | <h3 align="center">Add a Note</h3> | <img src="main_app/static/images/screenshots/note_add_screenshot.jpg" width="600">
+<!-- | <h3 align="center">ERD</h3> | <img src="main_app/static/images/ERD.jpg" width="600">
+| <h3 align="center">Wireframes</h3> | <img src="main_app/static/images/wireframes/all_wireframes.jpg" width="600"> -->
 
 ## :computer: Technologies Used
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
