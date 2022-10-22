@@ -40,7 +40,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 <details open>
 <summary>How to Use</summary>
  
-1. Click on "Todos" in the nav bar. 
+1. Click on `Todos` in the nav bar. 
  
 2. Click on "Create a Todo" in the nav bar.
  
