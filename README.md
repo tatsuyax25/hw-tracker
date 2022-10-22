@@ -54,14 +54,15 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 
 
 ### 🔗 Links
-<details open>
-<summary>Trello Board</summary>
-<a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3</a>
-</details>
 
 <details open>
 <summary>Pitch-Deck</summary>
 <a href="https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing">https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing></a>
+</details>
+
+<details open>
+<summary>Trello Board</summary>
+<a href="https://trello.com/b/PUkOSwTq/tracker-project-3">https://trello.com/b/PUkOSwTq/tracker-project-3</a>
 </details>
 
 <details open>
