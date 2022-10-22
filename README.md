@@ -31,9 +31,12 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 ## :computer: Technologies Used
 ![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
 ![Django](https://img.shields.io/badge/-Django-05122A?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql) ![AWS S3](https://img.shields.io/badge/-AWS_S3-05122A?style=flat&logo=amazons3)![Heroku](https://img.shields.io/badge/-Heroku-05122A?style=flat&logo=heroku)
+![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+<br>
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
+ ![AWS S3](https://img.shields.io/badge/-AWS_S3-05122A?style=flat&logo=amazons3)![Heroku](https://img.shields.io/badge/-Heroku-05122A?style=flat&logo=heroku)
 ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)    ![](https://img.shields.io/badge/-Lots_of_Caffeine-05122A?style=flat&logo=buymeacoffee)
+  ![](https://img.shields.io/badge/-Lots_of_Caffeine-05122A?style=flat&logo=buymeacoffee)
 
 ## 🔥 Getting Started
 
