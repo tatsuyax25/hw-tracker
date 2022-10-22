@@ -48,7 +48,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
  
 4. Assign a due date and time using the pop-up selectors.
  
-5. Hit Submit, and go finish your assignment before it's due! 
+5. Hit `Submit` and go finish your assignment before it's due! 
  
 </details>
 
