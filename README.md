@@ -52,9 +52,6 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
  
 </details>
 
-
-### 🔗 Links
-
 <details open>
 <summary>Pitch-Deck</summary>
 <a href="https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing">https://docs.google.com/presentation/d/1h2wwLEPFEW8QYUVp-uX2hn5afxvE5GVZatkmLsMW-J4/edit?usp=sharing></a>
