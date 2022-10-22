@@ -91,7 +91,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 </details>
 
 <details open>
-<summary><a href="https://www.linkedin.com/in/urena-miguel82/">Miguel Urena </a></summary>
+<summary><a href="https://www.linkedin.com/in/urena-miguel82/"> Miguel Urena </a></summary>
 
 #### Front-End Lead / Design / UX / UI / Styling / Vision / Layout / Wireframes / ERD Diagram
 </details>
