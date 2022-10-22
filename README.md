@@ -77,7 +77,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 ## ⏭️ Upcoming Features
 - [:x:] Sync functionality with Outcomes Google Classroom assignments
 - [:x:] Sync functionality with Google Calendar
-- [:x:] Sync functionality with Google Calendar
+- [:x:] Sync functionality with Gooogle Keep Notes
 
 ## :busts_in_silhouette: Contributions
 <details open>
