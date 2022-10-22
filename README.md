@@ -96,7 +96,11 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 <details open>
 <summary><a href="https://www.linkedin.com/in/navidyazdani7/"> Navid Yazdani </a></summary>
 
-#### Back-End Lead / Head Programmer / Coding Logic / Database Manager 
+- Back-End Lead
+- Head Programmer
+- Coding Logic
+- Database Manager
+ 
 </details>
 
 <details open>
