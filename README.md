@@ -79,7 +79,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 
 ## :busts_in_silhouette: Contributions
 <details open>
- <summary><a href="http://www.linkedin.com/in/profpan396/">Amar Pan</a></summary>
+ <summary><a href="http://www.linkedin.com/in/profpan396/"> Amar Pan </a></summary>
 
 #### Team Lead / GitHub Workflow Manager / Scrum Master / Organization / Planning / Documentation / AWS S3 Image Hosting / Deployment / Pitch-Deck / User Stories
 </details>
