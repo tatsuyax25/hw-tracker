@@ -75,8 +75,9 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 #### [Heroku Deployment](https://gatracker.herokuapp.com/) -->
 
 ## ⏭️ Upcoming Features
-- [:x:] Add sync functionality with Outcomes Google Classroom assignments
-- [:x:] Add sync functionality with Google Calendar
+- [:x:] Sync functionality with Outcomes Google Classroom assignments
+- [:x:] Sync functionality with Google Calendar
+- [:x:] Sync functionality with Google Calendar
 
 ## :busts_in_silhouette: Contributions
 <details open>
