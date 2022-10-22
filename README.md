@@ -18,7 +18,7 @@
 ## 📝 Description
 Tracker is a hub where General Assembly (GA) coding bootcamp students can track their current homework assignments and corresponding due dates using todo lists and notes.
 
-## :camera: Screenshots
+## :camera_flash: Screenshots
 | Description | Screenshot |
 |------------ | ------------|
 | <h3 align="center">Home Page</h3> | <img src="main_app/static/images/screenshots/home_screenshot.jpg" width="600">
