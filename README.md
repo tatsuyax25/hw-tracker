@@ -1,7 +1,7 @@
  <div align="center" id="header">
  
 # GA HW TRACKER
-**Created by <br> [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) | [Amar Pan](https://www.linkedin.com/in/profpan396/)  | [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**
+**Created by <br> [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) / [Amar Pan](https://www.linkedin.com/in/profpan396/) / [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**
 #### [CLICK TO DEMO](https://gatracker.herokuapp.com/) 
 </div>
 
