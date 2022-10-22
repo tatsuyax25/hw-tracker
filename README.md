@@ -40,7 +40,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 <details open>
 <summary>How to Use</summary>
  
-1. Click on `Todos` in the nav bar. 
+1. Click `Todos` in the nav bar. 
  
 2. Click `Create a Todo` in the nav bar.
  
@@ -48,7 +48,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
  
 4. Assign a due date and time using the pop-up selectors.
  
-5. Hit `Submit` and go finish your assignment before it's due! 
+5. Click `Submit` and go finish your assignment before it's due! 
  
 </details>
 
