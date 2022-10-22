@@ -77,7 +77,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 
 ## ⏭️ Next Steps
 - [:x:] Add sync functionality with Outcomes Google Classroom assignments
-- [ ] Add sync functionality with Google Calendar
+- [:x:] Add sync functionality with Google Calendar
 
 ## :busts_in_silhouette: Contributions
 <details open>
