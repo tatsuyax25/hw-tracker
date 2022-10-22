@@ -40,7 +40,7 @@ Tracker is a hub where General Assembly (GA) software engineering students can t
 <details open>
 <summary>How to Use</summary>
  
-:one: Click on "Todos" in the nav bar. 
+1. Click on "Todos" in the nav bar. 
  
 :two: Click on "Create a Todo" in the nav bar.
  
