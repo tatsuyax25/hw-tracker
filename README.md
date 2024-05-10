@@ -1,15 +1,15 @@
  <div align="center" id="header">
  
 # GA HW TRACKER
-**Created by <br> [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) / [Amar Pan](https://www.linkedin.com/in/profpan396/) / [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**
+**Created by <br> [Navid Yazdani](https://www.linkedin.com/in/navidyazdani7/) / [Amar Panjwani](https://www.linkedin.com/in/amarpan/) / [Miguel Urena](https://www.linkedin.com/in/urena-miguel82/)**
 #### [CLICK TO DEMO](https://gatracker.herokuapp.com/) 
 </div>
 
 <div align="center" id="socialbuttons">
 
-  ![Stars](https://img.shields.io/github/stars/profpan396/ga-hw-tracker?style=social)
-  ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.ga-hw-tracker)
-  ![Forks](https://img.shields.io/github/forks/profpan396/ga-hw-tracker?style=social)
+  ![Stars](https://img.shields.io/github/stars/amarpan/ga-hw-tracker?style=social)
+  ![](https://visitor-badge.laobi.icu/badge?page_id=amarpan.ga-hw-tracker)
+  ![Forks](https://img.shields.io/github/forks/amarpan/ga-hw-tracker?style=social)
   <br>
   ![Version](https://img.shields.io/badge/version-1.0-black)
 
@@ -81,7 +81,7 @@ Tracker is a hub where General Assembly (GA) coding bootcamp students can track 
 
 ## :busts_in_silhouette: Contributions
 <details open>
- <summary><a href="http://www.linkedin.com/in/profpan396/"> Amar Pan </a></summary>
+ <summary><a href="http://www.linkedin.com/in/amarpan/"> Amar Pan </a></summary>
 
 - Team Lead
 - GitHub Workflow Manager
